@@ -39,7 +39,7 @@ class App extends Component {
 		const { items } = this.state;
 		return (
 			<div>
-				<TodoList items={items} clear={this.handleClear} onClick={this.handleItemClick} />
+				<TodoList items={items} onClick={this.handleItemClick} />
 				<button onClick={this.handleClear}>Clear</button>
 			</div>
 		);
